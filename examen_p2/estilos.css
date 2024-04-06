@@ -1,0 +1,105 @@
+/* Agregamos estilos base para el cuerpo del documento */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+#logo {
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: cursive;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 6% 16px;
+  text-decoration: none;
+  border-right: 3px solid white;
+}
+
+.menu:hover {
+  background-color: #291591b5;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  margin: 20px;
+  flex: 3;
+}
+
+aside#der {
+  margin: 20px;
+  flex: 1;
+  padding: 20px;
+  background: #f2f2f2;
+  border-left: 1px solid #ddd;
+}
+
+h1 {
+  color: #333;
+}
+
+aside#der form {
+  display: flex;
+  flex-direction: column;
+}
+
+#der{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+aside#der input[type="submit"] {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+aside#der input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#login{
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
